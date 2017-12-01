@@ -12,18 +12,22 @@
     "out"
   ],
   "dependencies": {
-    "lazy-val": "^1.0.2",
     "bluebird-lst": "^1.0.5",
-    "fs-extra-p": "^4.4.4",
-    "js-yaml": "^3.10.0",
-    "semver": "^5.4.1",
-    "source-map-support": "^0.5.0",
     "builder-util-runtime": "~0.0.0-semantic-release",
     "electron-is-dev": "^0.3.0",
-    "lodash.isequal": "^4.5.0"
+    "fs-extra": "^4.0.2",
+    "fs-extra-p": "^4.4.4",
+    "js-yaml": "^3.10.0",
+    "lazy-val": "^1.0.2",
+    "lodash.isequal": "^4.5.0",
+    "semver": "^5.4.1",
+    "source-map-support": "^0.5.0"
   },
   "typings": "./out/main.d.ts",
   "publishConfig": {
     "tag": "next"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^4.0.5"
   }
 }
